@@ -1,0 +1,9 @@
+{{ define "main" }}
+  {{- partial "intro.html" . -}}
+
+  <article class="prose lg:prose-lg mx-auto my-8 dark:prose-dark px-4">
+    {{ .Content }}
+  </article>
+
+  {{- partial "social.html" . -}}
+{{ end }}
