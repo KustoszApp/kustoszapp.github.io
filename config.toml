@@ -31,7 +31,7 @@ DefaultContentLanguageInSubdir = false
         weight = 3
 
     [[languages.en.menu.main]]
-        name = "Changeblog"
+        name = "Blog"
         url = "/blog/"
         weight = 4
 
