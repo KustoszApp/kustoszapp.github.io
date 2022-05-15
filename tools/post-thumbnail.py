@@ -17,7 +17,7 @@ def main():
 
     static_path = (Path(__file__) / "../../static/").resolve()
     template_path = static_path / "blog_thumbnail_template.png"
-    output_path = static_path / f"post_{version_number}.png"
+    output_path = static_path / "thumbnails" / f"post_{version_number}.png"
 
     template = Image.open(template_path)
     template_w, template_h = template.size
