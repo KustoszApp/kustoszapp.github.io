@@ -1,3 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home page on Kustosz</title><link>https://www.kustosz.org/</link><description>Recent content in Home page on Kustosz</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 24 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kustosz.org/index.xml" rel="self" type="application/rss+xml"/><item><title>Hello world</title><link>https://www.kustosz.org/blog/hello-world/</link><pubDate>Thu, 24 Mar 2022 00:00:00 +0000</pubDate><guid>https://www.kustosz.org/blog/hello-world/</guid><description>Hello world</description></item><item><title>Download</title><link>https://www.kustosz.org/download/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.kustosz.org/download/</guid><description>Latest released versions:
 Please see Kustosz installation documentation for details on how to try out and deploy Kustosz.
-You can find Kustosz source code in GitHub organization.</description></item></channel></rss>
+You can find Kustosz source code in GitHub organization.</description></item><item><title>Screenshots</title><link>https://www.kustosz.org/screenshots/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.kustosz.org/screenshots/</guid><description>This is how Kustosz looks on desktop computer:
+Kustosz - main page
+Kustosz - reading article
+Kustosz - editing channel window
+Kustosz - maintenance page
+And on mobile phone:
+Kustosz - main page
+Kustosz - menu</description></item></channel></rss>
