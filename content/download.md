@@ -16,8 +16,6 @@ If you just want to try it out and see if Kustosz is for you, the easiest way is
 docker run -p 127.0.0.1:8000:8000 quay.io/kustosz/app
 ```
 
-Open [localhost:8000/ui/](http://localhost:8000/ui/) in your web browser to access Kustosz. To log in, use credentials printed in container log after "Generated random login
- credentials" line.
-
+Open [localhost:8000/ui/](http://localhost:8000/ui/) in your web browser to access Kustosz. To log in, use credentials printed in container log after "You can log in with following credentials" line.
 
 You can find Kustosz source code in [GitHub organization](https://github.com/KustoszApp).
