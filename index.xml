@@ -1,6 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home page on Kustosz</title><link>https://www.kustosz.org/</link><description>Recent content in Home page on Kustosz</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 15 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kustosz.org/index.xml" rel="self" type="application/rss+xml"/><item><title>Announcing Kustosz</title><link>https://www.kustosz.org/blog/announcing-kustosz/</link><pubDate>Sun, 15 May 2022 00:00:00 +0000</pubDate><guid>https://www.kustosz.org/blog/announcing-kustosz/</guid><description>I&amp;rsquo;m happy to announce Kustosz, a new feed reader that aims to help you focus on worthwhile content.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home page on Kustosz</title><link>https://www.kustosz.org/</link><description>Recent content in Home page on Kustosz</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 04 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kustosz.org/index.xml" rel="self" type="application/rss+xml"/><item><title>Kustosz 22.06.0</title><link>https://www.kustosz.org/blog/kustosz-22.06.0/</link><pubDate>Sat, 04 Jun 2022 00:00:00 +0000</pubDate><guid>https://www.kustosz.org/blog/kustosz-22.06.0/</guid><description>I’m happy to announce immediate availability of Kustosz 22.06.0.
+This release is all about making Kustosz easier to try and install.
+Container will automatically create new web user during start up. Now you can start the container with command below and immediately open localhost:8000/ui/ in the browser.
+docker run -p 127.0.0.1:8000:8000 quay.io/kustosz/app Use KUSTOSZ_USERNAME and KUSTOSZ_PASSWORD to set username and password. When these variables are missing, user admin with random password will be created.</description></item><item><title>Announcing Kustosz</title><link>https://www.kustosz.org/blog/announcing-kustosz/</link><pubDate>Sun, 15 May 2022 00:00:00 +0000</pubDate><guid>https://www.kustosz.org/blog/announcing-kustosz/</guid><description>I&amp;rsquo;m happy to announce Kustosz, a new feed reader that aims to help you focus on worthwhile content.
 These days, many open source RSS readers still try to fill the void left out by Google Reader - their main goal is to provide familiar visuals and user experience. Meanwhile, proprietary feed readers incorporate machine learning techniques to guide you through the vast ocean of content and try to &amp;ldquo;relieve&amp;rdquo; you from the burden of &amp;ldquo;reading everything&amp;rdquo;.</description></item><item><title>Download</title><link>https://www.kustosz.org/download/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.kustosz.org/download/</guid><description>Latest released versions:
-Please see Kustosz installation documentation for details on how to try out and deploy Kustosz.
+Please see Kustosz installation documentation for details on how to deploy Kustosz.
+If you just want to try it out and see if Kustosz is for you, the easiest way is by using containers:
+docker run -p 127.0.0.1:8000:8000 quay.io/kustosz/app Open localhost:8000/ui/ in your web browser to access Kustosz. To log in, use credentials printed in container log after &amp;ldquo;You can log in with following credentials&amp;rdquo; line.
 You can find Kustosz source code in GitHub organization.</description></item><item><title>Screenshots</title><link>https://www.kustosz.org/screenshots/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.kustosz.org/screenshots/</guid><description>This is how Kustosz looks on desktop computer:
 Kustosz - main page
 Kustosz - reading article
@@ -8,4 +13,5 @@ Kustosz - editing channel window
 Kustosz - maintenance page
 And on mobile phone:
 Kustosz - main page
-Kustosz - menu</description></item></channel></rss>
+Kustosz - menu
+Kustosz - reading article</description></item></channel></rss>
