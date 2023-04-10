@@ -26,7 +26,7 @@ def main():
         (static_path / "Spartan-Bold.ttf").as_posix(),
         size=130
     )
-    font_w, font_h = text.getsize(version_number)
+    _, _, font_w, font_h = text.getbbox(version_number)
 
     draw_x = template_w // 2 - font_w // 2
     draw_y = (template_h // 2 - font_h // 2) + 80
